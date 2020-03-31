@@ -8,7 +8,7 @@ class Bomb extends Component{
         } 
     }
     bombRender = () => {
-        console.log('*********************')
+        
         console.log(this.state.secondsLeft)
         if (this.state.secondsLeft !== 0){
             return <div>{this.state.secondsLeft} seconds left before I go boom!</div>

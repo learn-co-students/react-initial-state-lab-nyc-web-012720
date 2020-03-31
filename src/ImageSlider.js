@@ -8,17 +8,8 @@ class ImageSlider extends Component{
         } 
     }
 
-    // changeState = () => {
-    //     console.log(`before setState: ${this.state.currentSlideIndex}`)
-    //     this.setState({
-    //         currentSlideIndex: `I am on slide ${this.state.currentSlideIndex}`  
-    //     })
-    //     console.log(`before setState: ${this.state.currentSlideIndex}`)
-    // }
-
     render(){
         return (
-            // <div onClick={this.changeState}>
             <div >
                 I am on slide {this.state.currentSlideIndex}
             </div>
